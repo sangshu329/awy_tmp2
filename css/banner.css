@@ -1,0 +1,152 @@
+.site-nav-left a,.floor1-nav-content a div,.banner-nav li,.floor1-title{
+	background: url(icons.png) no-repeat;
+}
+.w1180{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+#content{
+	overflow: hidden;
+	position: relative;
+	margin-top: -5px;
+}
+
+.head-shadow,.head-shadow2{
+	position: relative;
+	width: 100%;
+	height: 3px;
+	background: #B2B2B2;
+	opacity: 0.35;
+	bottom: 0;
+	left: 0;
+	z-index: 999999;
+}
+
+.slide-banner{
+	height: 100%;
+	position: relative;
+}
+.banner-bg{
+	position: absolute;	
+	left: 0;
+	top: 0;
+	height: 100%;
+	z-index: 1;
+	width: 100%;
+    background-color: #10141F;
+    background-position: 50% 0;
+}
+
+.banner-nav{
+	position: absolute;
+	left: 50%;
+	bottom: 27px;
+	z-index: 999;
+}
+.banner-nav li{
+	float: left;
+	width: 9px;
+	height: 9px;
+	border-radius: 8px;
+	margin-right: 20px;
+    cursor: pointer;
+    background: url(../images/banner_liico.png) no-repeat center;
+}
+.banner-nav li.active{
+	background-position: -280px -929px;
+	background-color: #fff;
+}
+.banner-content{
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+	z-index: 100;
+}
+.banner-img{
+	position: absolute;
+	z-index: 2;
+    left: -150%;
+}
+
+.bar01{
+	top: 25%;
+	left: 50%;
+	margin-left: -362px;
+	z-index: 9;
+}
+.bar02{
+	top: 35%;
+	left: 50%;
+	margin-left: -278px;
+	z-index: 9;
+}
+.bar03{
+	top: 45%;
+	left: 50%;
+	margin-left: -66px;
+	z-index: 9;
+}
+
+.bar04{
+	top: 60%;
+	left: 50%;
+	margin-left: -507px;
+	z-index: 9;
+}
+
+.bar05{
+	bottom: 0;
+	left: 50%;
+	margin-left: -689px;
+}
+
+.bar01_btn{
+	height: 40px;
+	padding: 10px 20px;
+}
+
+.bar01_btn span{
+	margin-left: 15px;
+}
+
+.banner-bar-bg{
+    width: 100%;
+    height: 5px;
+    margin: 0 auto;
+    bottom: 0px;
+    position: absolute;
+    z-index: 99999;
+}
+.banner-bar{
+	height: 5px;
+	width: 0;
+	background: #0075C2;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.floor1-title{
+	height: 80px;
+	overflow: hidden;
+    width: 300px;
+    margin: 60px auto 0;
+    cursor: pointer;
+}
+
+/* 除IE6浏览器的通用方法 */
+
+.ie6fixedTL{position:absolute;left:0;top:0}
+
+.ie6fixedBR{position:absolute;right:0;bottom:0}
+
+.floor-title-png{
+	height: 80px;
+	overflow: hidden;
+    width: 287px;
+    margin: 60px auto 0;
+    cursor: pointer;
+    display:block;
+}
