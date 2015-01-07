@@ -1,0 +1,77 @@
+body{background:#fff;font-family:"Arial","Times New Roman","微软雅黑","宋体"; font-size: 14px;}
+.pt_1024{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.dib{
+	display: inline-block;
+}
+
+.pr{position:relative}/*相对定位*/
+.pa{position:absolute}/*绝对定位*/
+
+
+/* navbar-awa */
+.container{
+	width: 1170px;
+}
+.navbar-awa{
+	background-color: #0075C2;
+	height: 60px;
+	width: 100%;
+}
+
+.navbar-awa a{
+	color: #fff;
+	background-color: #0075C2;
+}
+
+.navbar-awa .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+background-color: #0075C2;
+border-bottom: 1px solid #72AFDC;
+}
+
+/* navbar-awa end*/
+
+/* nav */
+.navbar-nav{
+	display: inline-block;
+	margin-left: 105px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #0075C2;
+  border-bottom: 1px solid #72AFDC;
+}
+
+.nav_vhr{
+	padding: 15px 10px 0px;
+}
+
+.navbar-form {
+	right: 0;
+	top: 5px;
+}
+
+.navbar-form .form-control{
+	border-radius: 16px;
+	width: 190px;
+	height: 29px;
+	font-size: 12px;
+}
+
+.btn-awy{
+	padding: 0px;
+	top: 1px;
+	right: 16px;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	width: 27px;
+	height: 27px;
+	background-color: #0075C2;
+	color: #fff;
+}
