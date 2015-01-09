@@ -1,0 +1,141 @@
+.so_list_pt {
+    width: 969px;
+    margin: 0 auto;
+}
+.solution_bar{
+    width: 100%;
+}
+.solution_bar img{
+    width: 100%;
+    height: auto;
+}
+
+.solution_nav_ul {
+    width: 969px;
+    margin: 0 auto;
+}
+
+.solution_nav_ul li:first-child {
+    border-left: 1px solid #E3E3E3;
+}
+
+.solution_nav_ul li {
+    width: 484px;
+    height: 100px;
+    /*border-left: 1px solid #E3E3E3;*/
+    border-right: 1px solid #E3E3E3;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.solution_nav_ul li:hover {
+    color: #0075c2;
+}
+
+.solution_nav_ul li.on {
+    color: #0075c2;
+    border-bottom: 3px solid #0075C2;
+}
+
+.solution_nav_ul li span {
+    padding-top: 12px;
+}
+.hd {
+    border-bottom: 1px solid #E3E3E3;
+}
+.soul_liico {
+    margin-top: 20px;
+}
+
+.so_nav_list dl{
+    /*margin-top: 88px;*/
+    margin: 0;
+}
+.so_nav_list dd{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.so_nav_ddtit{
+    margin-top: 80px;
+}
+.so_education_con{
+    padding-top: 80px;
+    text-align: center;
+}
+.so_edu_left{
+    padding: 20px;
+    border: 1px solid #EFEFEF;
+}
+.so_edu_right{
+    width: 440px;
+    height: 280px;
+    text-align: left;
+    border-top: 1px dashed #ccc;
+}
+.so_edur_title{
+    font-size: 40px;
+    padding-top: 20px;
+    color: #555;
+}
+.so_edur_con{
+    color: #666;
+    padding-top: 50px;
+    line-height: 180%;
+}
+.so_edur_link{
+    margin-top: 8px;
+    color: #0075c2;
+}
+.so_edur_link span{
+    margin-right: 10px;
+}
+.edu_ul_outer{
+    text-align: center;
+    border: 0;
+}
+.edu_ul li:first-child{
+    border-left: 1px solid #ccc;
+}
+.edu_ul li{
+    float: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.edu_ul li.on{
+    background-color: #0075c2;
+}
+
+.edu_ul  li.on .staff_itemt_ico{
+    position: absolute;
+    top: -13px;
+    left: 47%;
+    display: inline-block;
+}
+.edu_ul  li .staff_itemt_ico{
+    display: none;
+}
+/*  security  */
+.so_security_con{
+    padding-top: 80px;
+    text-align: center;
+}
+.so_security_con .hd{
+    border: 0;
+}
+
+.so_sec_left{
+    padding: 20px;
+    border: 1px solid #EAEAEA;
+    background-color: #fff;
+}
+.so_sec_right{
+    width: 440px;
+    height: 280px;
+    text-align: left;
+}
