@@ -118,6 +118,14 @@
                                         <div class="ddli_month"><span class="mon_num">10</span>月</div>
                                         <div class="ddli_mtext">新版教学视频应用服务平台升级研发完成，视频资源应用管理更加智能化、人性化。</div>
                                     </li>
+                                    <li>
+                                        <div class="ddli_month"><span class="mon_num">9</span>月</div>
+                                        <div class="ddli_mtext">新版教学视频应用服务平台升级研发完成，视频资源应用管理更加智能化、人性化。</div>
+                                    </li>
+                                    <li>
+                                        <div class="ddli_month"><span class="mon_num">10</span>月</div>
+                                        <div class="ddli_mtext">新版教学视频应用服务平台升级研发完成，视频资源应用管理更加智能化、人性化。</div>
+                                    </li>
                                 </ul>
                                 <a class="sNext pa" href="javascript:void(0)"></a>
                             </div>
@@ -151,6 +159,9 @@
                                 <a class="yearPrev dib pa" href="javascript:void (0);"><img
                                         src="images/ab_year_previco.jpg" alt=""/></a>
                                 <ul class="ab_nav_year list-unstyled">
+                                    <li>2011</li>
+                                    <li>2013</li>
+                                    <li>2012</li>
                                     <li>2013</li>
                                     <li>2013</li>
                                     <li>2013</li>
@@ -158,10 +169,7 @@
                                     <li>2013</li>
                                     <li>2013</li>
                                     <li>2013</li>
-                                    <li>2013</li>
-                                    <li>2013</li>
-                                    <li>2013</li>
-                                    <li>2013</li>
+                                    <li>2014</li>
                                     <div class="clearfix"></div>
                                 </ul>
                                 <a class="yrefNext dib pa" href="javascript:void(0);"><img src="images/ab_year_nextico.jpg" alt=""/></a>
@@ -399,10 +407,10 @@
 <script src="js/jquery.SuperSlide.2.1.1.source.js"></script>
 <script>
     jQuery(".ab_nav").slide({trigger: "click"});
-    jQuery(" .ab_nav_ddcon .ab_nav_dd_list").slide({ mainCell: "ul", vis: 3, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop", pnLoop: false, });
-    jQuery(".ab_nav_ddcon").slide({titCell: ".ab_nav_year li", mainCell: ".ab_nav_dd_maincon",  trigger: "click",prevCell: ".yearPrev", nextCell: ".yrefNext",});
+    jQuery(" .ab_nav_ddcon .ab_nav_dd_list").slide({ mainCell: "ul", prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop", pnLoop: false,autoPage:true,effect:"left",autoPlay:false,vis:3});
+    jQuery(".ab_nav_ddcon").slide({titCell: ".ab_nav_year li", mainCell: ".ab_nav_dd_maincon",  trigger: "click"});
 
-    jQuery(" .staff_act_list .staff_alist_citem").slide({ mainCell: "ul", vis: 3, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop", pnLoop: false, });
+    jQuery(" .staff_act_list .staff_alist_citem").slide({ mainCell: "ul", vis: 3, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop", pnLoop: false,autoPage:true });
     jQuery(".staff_act_list").slide({titCell: ".staff_aitem_ul li", mainCell: ".staff_alist_con",  trigger: "click",prevCell: ".yearPrev", nextCell: ".yrefNext",});
 </script>
 <script src="js/about_us.js"></script>
